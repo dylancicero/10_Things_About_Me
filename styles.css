@@ -1,0 +1,199 @@
+$border_color = #f4ffe6
+
+body {
+  background-color: #fafff4;
+  height: 900px;
+}
+
+.navbar-text {
+  text-align: right;
+}
+
+.prelude {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.bottom_pic {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.site-title {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+a {
+  color: #484948;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000FF;
+}
+
+#row1, #row2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#row1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#row2 {
+  margin-bottom: 10%;
+}
+
+.page-title {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Secular One', sans-serif;
+}
+
+div[class*="-image"] {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: #C0D0BF;
+  border-right-style: solid;
+  border-right-width: thick;
+  border-right-color: #C0D0BF;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #9B9B9B;
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: #9B9B9B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (min-width:600px) {
+  div[class*="-image"] {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width:600px) {
+  div[class*="-image"] {
+    font-size: 2em;
+  }
+}
+
+.pesto-image {
+  background-image: url("./Pesto.png");
+  margin-bottom: 3%;
+}
+
+.books-image {
+  background-image: url("./books.png");
+  margin-bottom: 3%;
+}
+
+.dance-image {
+  background-image: url("./tango.png");
+  margin-bottom: 5%;
+}
+
+.hotdog-image {
+  background-image: url("./nathans.png");
+  margin-bottom: 5%;
+}
+
+.mushroom-image {
+  background-image: url("./turkey_tail.png");
+  margin-bottom: 7%;
+}
+
+.heroes-image {
+  background-image: url("./jeter.png");
+  margin-bottom: 3%;
+}
+
+.travels-image {
+  background-image: url("./road.png");
+  margin-bottom: 7%;
+}
+
+.pong-image {
+  background-image: url("./pong.png");
+  margin-bottom: 7%;
+}
+
+.scaccia-image {
+  background-image: url("./scaccia.png");
+  margin-bottom: 5%;
+}
+
+.siblings-image {
+  background-image: url("./Siblings.png");
+  margin-bottom: 5%;
+}
+
+.whites-image {
+  background-image: url("./whites.png");
+  margin-bottom: 5%;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display:inline;
+  margin-left: 10px;
+}
+
+.fine-print {
+  color: #9B9B9B;
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-right: 5%;
+}
+
+table {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 50%;
+}
+td,th {
+  border:1px solid #dddddd;
+  padding: 2%;
+}
+
+.quote {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+
+.center_text {
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

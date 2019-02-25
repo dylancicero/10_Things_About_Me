@@ -1,0 +1,167 @@
+$border_sides_color = #C0D0BF
+
+body {
+  background-color: #fafff4;
+  height: 900px;
+
+  a {
+    color: #484948;
+  }
+
+  a:hover {
+    color: #0000FF;
+  }
+}
+
+.navbar-text {
+  text-align: right;
+}
+
+.prelude {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.site-title {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 6em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#row1, #row2 {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+
+#row1 {
+  text-align: center;
+}
+
+.page-title {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Secular One', sans-serif;
+}
+
+div[class*="-image"] {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: $border_sides_color;
+  border-right-style: solid;
+  border-right-width: thick;
+  border-right-color: $border_sides_color;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #9B9B9B;
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: #9B9B9B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (min-width:600px) {
+  div[class*="-image"] {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width:600px) {
+  div[class*="-image"] {
+    font-size: 2em;
+  }
+}
+
+.pesto-image {
+  background-image: url("./Pesto.png");
+}
+
+.books-image {
+  background-image: url("./books.png");
+}
+
+.dance-image {
+  background-image: url("./tango.png");
+}
+
+.hotdog-image {
+  background-image: url("./nathans.png");
+}
+
+.mushroom-image {
+  background-image: url("./turkey_tail.png");
+}
+
+.heroes-image {
+  background-image: url("./jeter.png");
+}
+
+.travels-image {
+  background-image: url("./road.png");
+}
+
+.pong-image {
+  background-image: url("./pong.png");
+}
+
+.scaccia-image {
+  background-image: url("./scaccia.png");
+}
+
+.siblings-image {
+  background-image: url("./Siblings.png");
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display:inline;
+  margin-left: 10px;
+}
+
+.fine-print {
+  color: #9B9B9B;
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-right: 5%;
+}
+
+table {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 50%;
+}
+
+%table {
+  border:1px solid #dddddd;
+  padding: 2%;
+}
+
+td {
+  @extend %table;
+}
+
+th {
+  @extend %table;
+  text-decoration: underline; 
+}
